@@ -19,3 +19,7 @@ var numbers = [1, 2, 3];
 var object = {number: 'array'};
 
 console.log(Array.isArray(object));
+
+var emptyString;
+
+if (emptyString) console.log('Is not empty');
