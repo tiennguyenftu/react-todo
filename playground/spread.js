@@ -1,25 +1,16 @@
-// var person = ['Andrew', 25];
-// var personTwo = ['Jen', 29];
-//
-// function greeting(name, age) {
-//     return 'Hi ' + name + ', you are ' + age;
-// }
-//
-// console.log(greeting(...person));
-// console.log(greeting(...personTwo));
-//
-// var names = ['Mike', 'Ben'];
-// var final = ['Tien', ...names];
-//
-// final.forEach(function (name) {
-//     console.log(name);
-// });
+var person = ['Andrew', 25];
+var personTwo = ['Jen', 29];
 
-var numbers = [1, 2, 3];
-var object = {number: 'array'};
+function greeting(name, age) {
+    return 'Hi ' + name + ', you are ' + age;
+}
 
-console.log(Array.isArray(object));
+console.log(greeting(...person));
+console.log(greeting(...personTwo));
 
-var emptyString;
+var names = ['Mike', 'Ben'];
+var final = ['Tien', ...names];
 
-if (emptyString) console.log('Is not empty');
+final.forEach(function (name) {
+    console.log(name);
+});
